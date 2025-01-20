@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e4f9f5;
+    font-family: "Merriweather", serif;
+}
+
+.top-container {
+    height: 75vh;
+    width: 100%;
+    position: relative;
+    padding-top: 200px;
+    background-color: #fff;
+}
+
+.sun {
+    height: 200px;
+    position: absolute;
+    right: 250px;
+    top: 0;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+h1 {
+    font-size: 5.625rem;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #5BBCFF;
+    padding-left: 300px;
+}
+
+h2 {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #5BBCFF;
+    padding-left: 300px;
+    font-size: 2.5rem;
+}  
+
+.se {
+    text-decoration: underline;
+}
+
+.tree {
+    height: 400px;
+    position: absolute;
+    bottom: 0;
+    right: 200px;
+}
+
+.hello {
+    margin-top: 100px;
+    text-align: center; 
+}
+
+.avt {
+    height: 180px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.hello h2 {
+    padding-left: 0;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.intro {
+    margin-top: 30px;
+}
+
+hr {
+    border: dotted #5BBCFF 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.skills h2 {
+    padding-left: 0;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+
+img {
+    overflow-clip-margin: content-box;
+}
+
+.html {
+    height: 150px;
+}
+
+.bottom {
+    
+}
